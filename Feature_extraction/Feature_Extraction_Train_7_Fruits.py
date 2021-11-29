@@ -11,7 +11,7 @@ outputs = numpy.zeros(shape=(3436))
 idx = 0
 class_label = 0
 for fruit_dir in fruits:
-    curr_dir = os.path.join(os.path.sep + "Datasets/Fruits-360/Train", fruit_dir)
+    curr_dir = os.path.join(os.path.sep + "../Datasets/Fruits-360/Train", fruit_dir)
     all_imgs = os.listdir(os.getcwd()+curr_dir)
     for img_file in all_imgs:
         if img_file.endswith(".jpg"): # Ensures reading only JPG files.
@@ -23,8 +23,8 @@ for fruit_dir in fruits:
             idx = idx + 1
     class_label = class_label + 1
 
-with open("Datasets/train_set_features_optional.pkl", "wb") as f:
+with open("train_set_features_7_fruits.pkl", "wb") as f:
     pickle.dump(dataset_features, f)
 
-with open("Datasets/train_set_labels_optional.pkl", "wb") as f:
+with open("train_set_labels_7_fruits.pkl", "wb") as f:
     pickle.dump(outputs, f)
