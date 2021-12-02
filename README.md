@@ -10,10 +10,10 @@
       <a href="#about-the-project">About The Project</a>
     </li>
     <li>
-      <a href="usage">Usage</a>
+      <a href="Usage">Usage</a>
       <ul>
-        <li><a href="#usage">Requirements</a></li>
-        <li><a href="#run">Run</a></li>
+        <li><a href="#Requirements">Requirements</a></li>
+        <li><a href="#Run">Run</a></li>
       </ul>
     <li>
       <a href="#Phases">Phases</a>
