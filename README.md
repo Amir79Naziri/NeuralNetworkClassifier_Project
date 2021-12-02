@@ -38,27 +38,21 @@
 </details>
 
 ## About The Project
-this project implements feed forward nerual network from scratch with numpy
-the 360 Fruits Dataset has been used for training and testing model.
-there are seven phases in this project which complete neural network 
-implementation step by step:  
+This project implements a feed-forward neural network from scratch with NumPy and uses the 360 Fruits Dataset as a training and testing model. there are seven phases in this project which complete neural network implementation step by step, which includes the following steps  
 
-* Preprocess Data
-* Forward Propagation
-* Non-Vectorized Backward Propagetion
-* Vectorized Backward Propagetion
-* Final Test
-* Hyperparameters Analyzing
-* Learning Rate Decay
-* Deeper Network !!!  
+* [Preprocess Data](#phase1)
+* [Forward Propagation](#phase2)
+* [Non-Vectorized Backward Propagetion](#phase3)
+* [Vectorized Backward Propagetion](#phase4)
+* [Final Test](#phase5)
+* [Hyperparameters Analyzing](#phase6)
+* [Learning Rate Decay](#phase7)
+* [Deeper Network](#phase8)
 
-as input data are images, so there are feature extraction codes 
-which can transform image to fixed dimentional
-vector, so model uses .pkl extension files as input (not direct images).
-first non-vectorized backward propagtion has been impelmented and after that
-i changed the backward to vectorized form, thanks for reading.  
+as input data are images, so there are some feature extraction codes that can transform images into fixed dimensional vectors, so model uses .pkl extension files as input (not direct images). In the beginning, non-vectorized backward propagation had been implemented, and after that implementation changed to the backward to vectorized form.  
 
-feel free to use code ... 
+feel free to use code ...  
+Thanks for your reading
  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
