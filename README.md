@@ -38,7 +38,7 @@
 </details>
 
 ## About The Project
-This project implements a feed-forward neural network from scratch with NumPy and uses the 360 Fruits Dataset as a training and testing model. there are seven phases in this project which complete neural network implementation step by step, which includes the following steps  
+This project implements a `feed-forward neural network` from scratch with `numpy` and uses the `360 Fruits` Dataset as a training and testing model. there are seven phases in this project which complete neural network implementation step by step, which includes the following steps  
 
 * [Preprocess Data](#phase1)
 * [Forward Propagation](#phase2)
