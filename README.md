@@ -60,20 +60,20 @@ feel free to use code :wink:
 
 ## Usage  
 ### Requirements
-Project uses numpy array for increasing speed and Linear algebra, then you should install `numpy` library,
+Project uses numpy array for increasing speed and Linear algebra, then you should install `numpy` library
 ```bash
 $ pip install numpy
 ```
-also, project needs `matplotlib` for visualizing plots,
+also, project needs `matplotlib` for visualizing plots
 ```bash
 $ pip install matplotlib
 ```
-and you should install `tqdm` for better experince(you can delete it from code if you want).
+and you should install `tqdm` for better experince(you can delete it from code if you want)
 ```bash
 $ pip install tqdm
 ```
 (optional)  
-if you want to run feature extraction codes yourself, please install `scikit-image` too.
+if you want to run feature extraction codes yourself, please install `scikit-image` too
 ```bash
 $ pip install scikit-image
 ```
