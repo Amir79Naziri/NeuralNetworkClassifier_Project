@@ -86,13 +86,13 @@ Run all cells in order, but you should run phase 7 before running the train func
 ## Phases
 
 ### Preprocess Data
-### Forward Propagation)
-### Non-Vectorized Backward Propagetion)
-### Vectorized Backward Propagetion)
-### Final Test)
-### Hyperparameters Analyzing)
-### Learning Rate Decay)
-### Deeper Network !!!)
+### Forward Propagation
+### Non-Vectorized Backward Propagetion
+### Vectorized Backward Propagetion
+### Final Test
+### Hyperparameters Analyzing
+### Learning Rate Decay
+### Deeper Network !!!
 
 ## License
 
