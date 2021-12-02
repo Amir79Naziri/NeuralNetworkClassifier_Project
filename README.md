@@ -45,7 +45,7 @@ This project implements a `feed-forward neural network` from scratch with `numpy
 * [Non-Vectorized Backward Propagetion](#Phase3)
 * [Vectorized Backward Propagetion](#Phase4)
 * [Final Test](#Phase5)
-* [Hyperparameters Analyzing](#Phase16)
+* [Hyperparameters Analyzing](#Phase6)
 * [Learning Rate Decay](#Phase7)
 * [Deeper Network !!!](#Phase8)
 
