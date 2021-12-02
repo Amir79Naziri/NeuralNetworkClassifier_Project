@@ -18,14 +18,14 @@
     <li>
       <a href="#Phases">Phases</a>
       <ul>
-        <li><a href="#Preprocess Data">Preprocess Data</a></li>
-        <li><a href="#Forward Propagation">Forward Propagation</a></li>
-        <li><a href="#Non-Vectorized Backward Propagetion">Non-Vectorized Backward Propagetion</a></li>
-        <li><a href="#Vectorized Backward Propagetion">Vectorized Backward Propagetion</a></li>
-        <li><a href="#Final Test">Final Test</a></li>
-        <li><a href="#Hyperparameters Analyzing">Hyperparameters Analyzing</a></li>
-        <li><a href="#Learning Rate Decay">Learning Rate Decay</a></li>
-        <li><a href="#Deeper Network !!!">Deeper Network !!!</a></li>
+        <li><a href="#Phase1">Preprocess Data</a></li>
+        <li><a href="#Phase2">Forward Propagation</a></li>
+        <li><a href="#Phase3">Non-Vectorized Backward Propagetion</a></li>
+        <li><a href="#Phase4">Vectorized Backward Propagetion</a></li>
+        <li><a href="#Phase5">Final Test</a></li>
+        <li><a href="#Phase6">Hyperparameters Analyzing</a></li>
+        <li><a href="#Phase7">Learning Rate Decay</a></li>
+        <li><a href="#Phase8">Deeper Network !!!</a></li>
           <ul>
             <li><a href="#phase8-1">Preprocess Data</a></li>
             <li><a href="#phase8-2">Train and Test</a></li>
@@ -40,14 +40,14 @@
 ## About The Project
 This project implements a `feed-forward neural network` from scratch with `numpy` and uses the `360 Fruits` Dataset as a training and testing model. there are seven phases in this project which complete neural network implementation step by step, which includes the following steps  
 
-* [Preprocess Data](#Preprocess Data)
-* [Forward Propagation](#Forward Propagation)
-* [Non-Vectorized Backward Propagetion](#Non-Vectorized Backward Propagetion)
-* [Vectorized Backward Propagetion](#Vectorized Backward Propagetion)
-* [Final Test](#Final Test)
-* [Hyperparameters Analyzing](#Hyperparameters Analyzing)
-* [Learning Rate Decay](#Learning Rate Decay)
-* [Deeper Network !!!](#Deeper Network !!!)
+* [Preprocess Data](#Phase1)
+* [Forward Propagation](#Phase2)
+* [Non-Vectorized Backward Propagetion](#Phase3)
+* [Vectorized Backward Propagetion](#Phase4)
+* [Final Test](#Phase5)
+* [Hyperparameters Analyzing](#Phase16)
+* [Learning Rate Decay](#Phase7)
+* [Deeper Network !!!](#Phase8)
 
 As input data are images, so there are some feature extraction codes that can transform images into fixed dimensional vectors, so the model uses .pkl extension files as input (not direct images). In the beginning, non-vectorized backward propagation was implemented, and after that implementation changed from the vectorized backward propagation to vectorized form.  
 
@@ -85,14 +85,14 @@ Run all cells in order, but you should run phase 7 before running the train func
 
 ## Phases
 
-### Preprocess Data
-### Forward Propagation
-### Non-Vectorized Backward Propagetion
-### Vectorized Backward Propagetion
-### Final Test
-### Hyperparameters Analyzing
-### Learning Rate Decay
-### Deeper Network !!!
+### Phase1
+### Phase2
+### Phase3
+### Phase4
+### Phase5
+### Phase6
+### Phase7
+### Phase8
 
 ## License
 
