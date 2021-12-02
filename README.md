@@ -38,24 +38,28 @@
 </details>
 
 ## About The Project
-this project represents a `CSP backtracking algorithm` that can solve `the binary puzzles`,
-the binary puzzle consists of an n * n table where n is an even number and
-the player must place the numbers zero or one in the empty cells so that:  
+this project implements feed forward nerual network from scratch with numpy
+the 360 Fruits Dataset has been used for training and testing model.
+there are seven phases in this project which complete neural network 
+implementation step by step:  
 
-* each row and each column must have an equal number of zeros and ones  
-* the numbers in each row and column must produce a unique string  
-* there should be no more than 2 duplicates in each row and column
-  
-for example, consider the table in four of the following:
-```bash
-1   0   0   1
-0   1   1   0
-1   1   0   0
-0   0   1   1
-```
-1. the number of rows in each row and column is equal to the number of one in that row and column.
-2. the string columns 1010, 0110, 0101, and 1001 are unique, and the row strings are similarly unique. 
-3. in no row or column are more than two one or two zeros together.  
+* Preprocess Data
+* Forward Propagation
+* Non-Vectorized Backward Propagetion
+* Vectorized Backward Propagetion
+* Final Test
+* Hyperparameters Analyzing
+* Learning Rate Decay
+* Deeper Network !!!  
+
+as input data are images, so there are feature extraction codes 
+which can transform image to fixed dimentional
+vector, so model uses .pkl extension files as input (not direct images).
+first non-vectorized backward propagtion has been impelmented and after that
+i changed the backward to vectorized form, thanks for reading.  
+
+feel free to use code ... 
+ 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
