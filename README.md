@@ -18,14 +18,14 @@
     <li>
       <a href="#Phases">Phases</a>
       <ul>
-        <li><a href="#phase1">Preprocess Data</a></li>
-        <li><a href="#phase2">Forward Propagation</a></li>
-        <li><a href="#phase3">Non-Vectorized Backward Propagetion</a></li>
-        <li><a href="#phase4">Vectorized Backward Propagetion</a></li>
-        <li><a href="#phase5">Final Test</a></li>
-        <li><a href="#phase6">Hyperparameters Analyzing</a></li>
-        <li><a href="#phase7">Learning Rate Decay</a></li>
-        <li><a href="#phase8">Deeper Network !!!</a></li>
+        <li><a href="#Phase1">Preprocess Data</a></li>
+        <li><a href="#Phase2">Forward Propagation</a></li>
+        <li><a href="#Phase3">Non-Vectorized Backward Propagetion</a></li>
+        <li><a href="#Phase4">Vectorized Backward Propagetion</a></li>
+        <li><a href="#Phase5">Final Test</a></li>
+        <li><a href="#Phase6">Hyperparameters Analyzing</a></li>
+        <li><a href="#Phase7">Learning Rate Decay</a></li>
+        <li><a href="#Phase8">Deeper Network !!!</a></li>
           <ul>
             <li><a href="#phase8-1">Preprocess Data</a></li>
             <li><a href="#phase8-2">Train and Test</a></li>
@@ -49,7 +49,7 @@ This project implements a `feed-forward neural network` from scratch with `numpy
 * [Learning Rate Decay](#phase7)
 * [Deeper Network !!!](#phase8)
 
-as input data are images, so there are some feature extraction codes that can transform images into fixed dimensional vectors, so the model uses .pkl extension files as input (not direct images). In the beginning, non-vectorized backward propagation was implemented, and after that implementation changed from the vectorized backward propagation to vectorized form.  
+As input data are images, so there are some feature extraction codes that can transform images into fixed dimensional vectors, so the model uses .pkl extension files as input (not direct images). In the beginning, non-vectorized backward propagation was implemented, and after that implementation changed from the vectorized backward propagation to vectorized form.  
 
 feel free to use code :wink:  
 
@@ -83,9 +83,21 @@ Run all cells in order, but you should run phase 7 before running the train func
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Phases
+
+### Phase1
+#### Preprocess Data
+### Phase2
+### Phase3
+### Phase4
+### Phase5
+### Phase6
+### Phase7
+### Phase8
+
 ## License
 
-Distributed under the MIT License. See `LICENSE.md` for more information.  
+Distributed under the MIT license. See `LICENSE.md` for more information.  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
