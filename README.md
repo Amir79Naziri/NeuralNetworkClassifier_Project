@@ -29,7 +29,7 @@
           <ul>
             <li><a href="#phase8-1">Preprocess Data</a></li>
             <li><a href="#phase8-2">Train and Test</a></li>
-          <ul>
+          </ul>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
