@@ -18,7 +18,7 @@
     <li>
       <a href="#Phases">Phases</a>
       <ul>
-        <li><a href="#Phase1">Preprocess Data</a></li>
+        <li><a href="#Preprocess Data">Preprocess Data</a></li>
         <li><a href="#Phase2">Forward Propagation</a></li>
         <li><a href="#Phase3">Non-Vectorized Backward Propagetion</a></li>
         <li><a href="#Phase4">Vectorized Backward Propagetion</a></li>
