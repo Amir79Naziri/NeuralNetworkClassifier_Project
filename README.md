@@ -72,7 +72,7 @@ and you should install `tqdm` for better experince(you can delete it from code i
 ```bash
 $ pip install tqdm
 ```
-(optional)  
+__(optional)__  
 if you want to run feature extraction codes yourself, please install `scikit-image` too
 ```bash
 $ pip install scikit-image
