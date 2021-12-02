@@ -79,30 +79,7 @@ $ pip install scikit-image
 ```
 
 ### Run 
-Run all cells in order, but you should run phase 7 before running the train function block at phase 3.
-
-#### Example Run
-``` bash
-$ python3 csp.py
-Which constraint propagation algorithm would you prefer?
- 1) MAC
- 2) Forward Checking
-1
-10 10
-- 0 - - - - - - - -
-- 0 - - - - - 1 - 0
-1 - - - 1 0 - - - -
-- - - 0 - - - - - 1
-- - - - 1 - - - - -
-- - - - - - 1 1 - -
-- 1 - 1 - - 1 - - -
-0 - - - - - - - 0 -
-- 1 - - 1 - - 1 0 -
-- - - 0 - 0 - - - -
-```
-then you can see the solving procedure as follows  
-
-![Example Run](./pic/preview.gif)  
+Run all cells in order, but you should run phase 7 before running the train function cell at phase 3.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
