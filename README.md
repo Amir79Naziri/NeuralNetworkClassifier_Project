@@ -59,19 +59,27 @@ feel free to use code :wink:
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Usage  
-#### Requirements
-we used numpy array for increasing speed, then you should install `numpy` library.
+### Requirements
+Project uses numpy array for increasing speed and Linear algebra, then you should install `numpy` library,
 ```bash
 $ pip install numpy
 ```
-also, we used `pygame` for visualizing solving procedure.
+also, project needs `matplotlib` for visualizing plots,
 ```bash
-$ pip install pygame
+$ pip install matplotlib
 ```
-#### Run 
+and you should install `tqdm` for better experince(you can delete it from code if you want).
 ```bash
-$ python3 csp.py
+$ pip install tqdm
 ```
+(optional)  
+if you want to run feature extraction codes yourself, please install `scikit-image` too.
+```bash
+$ pip install scikit-image
+```
+
+### Run 
+Run all cells in order, but you should run phase 7 before running the train function block at phase 3.
 
 #### Example Run
 ``` bash
