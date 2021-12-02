@@ -49,7 +49,7 @@ This project implements a `feed-forward neural network` from scratch with `numpy
 * [Learning Rate Decay](#Phase7)
 * [Deeper Network !!!](#Phase8)
 
-As input data are images, so there are some feature extraction codes that can transform images into fixed dimensional vectors, so the model uses .pkl extension files as input (not direct images). In the beginning, non-vectorized backward propagation was implemented, and after that implementation changed from the vectorized backward propagation to vectorized form.  
+As input data are images, so there are some feature extraction codes that can transform images into fixed dimensional vectors, so the model uses `.pkl` extension files as input (not direct images). In the beginning, `non-vectorized` `backward propagation` was implemented, and after that implementation changed from the `vectorized` backward propagation to vectorized form.  
 
 feel free to use code :wink:  
 
