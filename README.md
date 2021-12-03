@@ -85,7 +85,7 @@ Run all cells in order, but you should run phase 7 before running the train func
 
 ## Phases
 
-### Phase1
+<h3 id="Phase1">Preprocess Data</h3>
 ### Phase2
 ### Phase3
 ### Phase4
