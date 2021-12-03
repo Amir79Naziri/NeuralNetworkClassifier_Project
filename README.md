@@ -49,7 +49,7 @@ This project implements a `feed-forward neural network` from scratch with `numpy
 * [Learning Rate Decay](#Phase7)
 * [Deeper Network !!!](#Phase8)
 
-As input data are images, so there are some feature extraction codes that can transform images into fixed dimensional vectors, so the model uses `.pkl` extension files as input (not direct images). In the beginning, `non-vectorized` `backward propagation` was implemented, and after that implementation changed to `vectorized` backward propagation. 
+As input data are images, so there are some feature extraction codes that can transform images into fixed dimensional vectors, so the model uses `.pkl` extension files as input (not direct images). In the beginning, `non-vectorized` `backward propagation` will be implemented, and after that implementation will be changed to `vectorized` backward propagation. 
 
 feel free to use code :wink:  
 
@@ -68,7 +68,7 @@ also, project needs `matplotlib` for visualizing plots
 ```bash
 $ pip install matplotlib
 ```
-and you should install `tqdm` for better experince(you can delete it from code if you want)
+and you should install `tqdm` for better experince (you can delete it from code if you want)
 ```bash
 $ pip install tqdm
 ```
@@ -79,20 +79,22 @@ $ pip install scikit-image
 ```
 
 ### Run 
-Run all cells in order, but you should run phase 7 before running the train function cell at phase 3.
+Run all cells in order, but you should run phase 7 before running the train function's cell at phase 3.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Phases
+## Phases  
 
 <h3 id="Phase1">Preprocess Data</h3>
-### Phase2
-### Phase3
-### Phase4
-### Phase5
-### Phase6
-### Phase7
-### Phase8
+In this phase data is transformed from images into vectors, at beginning feature extraction reads all images and with the use of `histogram` function and number of 360 ` bins`, images are transformed into vectors, then features with specific `standard deviation` are deleted, and finally, data is ready.  
+
+<h3 id="Phase2">Forward Propagation</h3>
+<h3 id="Phase3">Non-Vectorized Backward Propagetion</h3>
+<h3 id="Phase4">Vectorized Backward Propagetion</h3>
+<h3 id="Phase5">Final Test</h3>
+<h3 id="Phase6">Hyperparameters Analyzing</h3>
+<h3 id="Phase7">Learning Rate Decay</h3>
+<h3 id="Phase8">Deeper Network !!!</h3>
 
 ## License
 
