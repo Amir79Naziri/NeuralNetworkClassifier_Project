@@ -91,7 +91,7 @@ In this phase data is transformed from images into vectors, at beginning feature
 
 <h3 id="Phase2">Forward Propagation</h3>  
   
-In this phase `forward function` are implemented and also weights and biases are initialized, also the test function is implemented for testing the `accuracy` of the model. also as `activation function`, this model uses `[sigmoid]("https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logistic-curve.svg/1200px-Logistic-curve.svg.png")` for all layers.  
+In this phase `forward function` are implemented and also weights and biases are initialized, also the test function is implemented for testing the `accuracy` of the model. also as `activation function`, this model uses [sigmoid]("https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logistic-curve.svg/1200px-Logistic-curve.svg.png") for all layers.  
 
 
 <h3 id="Phase3">Non-Vectorized Backward Propagetion</h3>  
