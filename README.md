@@ -26,10 +26,6 @@
         <li><a href="#Phase6">Hyperparameters Analyzing</a></li>
         <li><a href="#Phase7">Learning Rate Decay</a></li>
         <li><a href="#Phase8">Deeper Network !!!</a></li>
-          <ul>
-            <li><a href="#phase8-1">Preprocess Data</a></li>
-            <li><a href="#phase8-2">Train and Test</a></li>
-          </ul>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
