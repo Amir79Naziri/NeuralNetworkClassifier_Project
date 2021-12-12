@@ -83,11 +83,11 @@ Run all cells in order, but you should run phase 7 before running the train func
 
 <h3 id="Phase1">Preprocess Data</h3>  
 
-In this phase data is transformed from images into vectors, at beginning feature extraction reads all images and with the use of `histogram` function and number of 360 `bins`, images are transformed into vectors, then features with specific `standard deviation` are deleted, and finally, data is ready.  
+In this phase data is transformed from images into vectors, at beginning feature extraction reads all images and with the use of `histogram` function and number of 360 `bins`, images are transformed into vectors, then features with specific `standard deviation` are deleted, and finally, data is ready!  
 
 <h3 id="Phase2">Forward Propagation</h3>  
   
-In this phase `forward function` is implemented and also weights and biases are initialized, also the test function is implemented for testing the `accuracy` of the model. also as `activation function`, this model uses `sigmoid` for all layers.  
+In this phase `forward function` is implemented and weights and biases are initialized, also the test function is implemented for testing the `accuracy` of the model. As `activation function`, this model uses `sigmoid` for all layers.  
 
 
 <h3 id="Phase3">Non-Vectorized Backward Propagetion</h3>  
