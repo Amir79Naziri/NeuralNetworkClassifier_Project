@@ -124,7 +124,7 @@ class LR_Decay:
 <h3 id="Phase8">Deeper Network !!!</h3>  
 In the last phase, 3 fruits were added to the dataset, so there are seven fruits and also we need Deeper Model !!!
 
-###### warning: feel free to add more fruits to the dataset, but you should modify feature extraction a little bit and make your model more complex.
+###### :warning: warning: feel free to add more fruits to the dataset, but you should modify feature extraction a little bit and make your model more complex.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
