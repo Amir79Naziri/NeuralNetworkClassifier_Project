@@ -96,10 +96,10 @@ In this phase nonvectorized backward function is implemented, but it is so slow.
 
 <h3 id="Phase4">Vectorized Backward Propagetion</h3>  
 In this phase vectorized backward function is implemented, as you can see it is super fast.
-<img src="./pictures/vb.png" />
+<img src="./pictures/vb.png" height=400px width=400px/>
 
 <h3 id="Phase5">Final Test</h3>  
-<img src="./pictures/fr.png" />
+<img src="./pictures/fr.png" height=400px width=400px/>
 
 <h3 id="Phase6">Hyperparameters Analyzing</h3>  
 Run cells to see effect of different hyperparameters on accuracy.
