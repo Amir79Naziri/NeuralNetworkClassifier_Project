@@ -105,7 +105,8 @@ In this phase `vectorized backward function` is implemented, as you can see it i
 
 <h3 id="Phase7">Learning Rate Decay</h3>  
 I used a custom learning decay for improving convergence.  
-
+  
+  
 ```python
 class LR_Decay:
     def __init__(self, initial_lr, k):
