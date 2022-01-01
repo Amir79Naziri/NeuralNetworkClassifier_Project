@@ -92,16 +92,16 @@ In this phase `forward function` is implemented and weights and biases are initi
 
 <h3 id="Phase3">Non-Vectorized Backward Propagetion</h3>  
 In this phase nonvectorized backward function is implemented, but it is so slow.  
-<br>
+<br/>
 <img src="./pictures/nonvb.png" height=400px width=400px/>
 
 <h3 id="Phase4">Vectorized Backward Propagetion</h3>  
 In this phase vectorized backward function is implemented, as you can see it is super fast.  
-<br>
+<br/>
 <img src="./pictures/vb.png" height=400px width=400px/>
 
 <h3 id="Phase5">Final Test</h3>  
-<br>
+<br/>
 <img src="./pictures/fr.png" height=400px width=400px/>
 
 <h3 id="Phase6">Hyperparameters Analyzing</h3>  
@@ -109,7 +109,7 @@ Run cells to see effect of different hyperparameters on accuracy.
 
 <h3 id="Phase7">Learning Rate Decay</h3>  
 I used a custom learning decay for improving convergence.  
-  <br>
+  
   
 ```python
 class LR_Decay:
