@@ -92,7 +92,7 @@ In this phase `forward function` is implemented and weights and biases are initi
 
 <h3 id="Phase3">Non-Vectorized Backward Propagetion</h3>  
 In this phase nonvectorized backward function is implemented, but it is so slow. 
-<img src="./pictures/nonvb.png" height=100px/>
+<img src="./pictures/nonvb.png" height=400px width=400px/>
 
 <h3 id="Phase4">Vectorized Backward Propagetion</h3>  
 In this phase vectorized backward function is implemented, as you can see it is super fast.
