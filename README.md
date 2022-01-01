@@ -101,7 +101,7 @@ In this phase `vectorized backward function` is implemented, as you can see it i
 
 
 <h3 id="Phase6">Hyperparameters Analyzing</h3>  
-Run cells to see effect of different `hyperparameters` on accuracy.
+Run cells to see effect of different hyperparameters on accuracy.
 
 <h3 id="Phase7">Learning Rate Decay</h3>  
 I used a custom learning decay for improving convergence.  
