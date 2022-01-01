@@ -47,9 +47,6 @@ This project implements a `feed-forward neural network` from scratch with `numpy
 
 As input data are images, so there are some feature extraction codes that can transform images into fixed dimensional vectors, so the model uses `.pkl` extension files as input (not direct images). In the beginning, `non-vectorized` `backward propagation` will be implemented, and after that implementation will be changed to `vectorized` backward propagation. 
 
-feel free to use code :wink:  
-
-###### Thanks for your reading :heart:
  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
