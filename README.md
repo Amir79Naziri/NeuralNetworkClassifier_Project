@@ -98,7 +98,7 @@ In this phase `nonvectorized backward function` is implemented, but it is so slo
 In this phase `vectorized backward function` is implemented, as you can see it is super fast.
 
 <h3 id="Phase5">Final Test</h3>  
-<img src="./picturs/fr.png" />
+<img src="./pictures/fr.png" />
 
 <h3 id="Phase6">Hyperparameters Analyzing</h3>  
 Run cells to see effect of different hyperparameters on accuracy.
