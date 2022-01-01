@@ -91,10 +91,11 @@ In this phase `forward function` is implemented and weights and biases are initi
 
 
 <h3 id="Phase3">Non-Vectorized Backward Propagetion</h3>  
+In this phase `nonvectorized backward function` is implemented, but it is so slow. 
 
 
 <h3 id="Phase4">Vectorized Backward Propagetion</h3>  
-
+In this phase `vectorized backward function` is implemented, as you can see it is super fast.
 
 <h3 id="Phase5">Final Test</h3>  
 
@@ -103,10 +104,24 @@ In this phase `forward function` is implemented and weights and biases are initi
 
 
 <h3 id="Phase7">Learning Rate Decay</h3>  
-
+I used a custom learning decay for improving convergence.
+``` python
+class LR_Decay:
+    def __init__(self, initial_lr, k):
+        self.initial_lr = initial_lr
+        self.t = 0
+        self.k = k
+        
+    def step(self):
+        value = self.initial_lr * np.exp(-self.k * self.t)
+        self.t += 1
+        return max(value, 1)
+```
 
 <h3 id="Phase8">Deeper Network !!!</h3>  
+In the last phase, 3 fruits were added to the dataset, so there are seven fruits and also we need Deeper Model !!!
 
+###### warning: feel free to add more fruits to the dataset, but you should modify feature extraction a little bit and make your model more complex.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
