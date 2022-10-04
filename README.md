@@ -1,6 +1,6 @@
 <div align="center">
   
-  <h1 align="center">360 Fruits Classifier</h1>
+  <h1 align="center">Neural Network Classifier</h1>
 </div>
 
 <details>
